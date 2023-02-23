@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: pink;
+}
+
+.essai{
+    background-color: aquamarine;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+}
+
+.gauche{
+    width: 50%;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+}
+
+.droite{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+
+.haut{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+
+.bas{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+}
